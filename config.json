@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "sites": {
+    "unsplash": {
+      "scriptFile": "unsplash.js",
+      "baseUrl": "https://unsplash.com/",
+      "tags": {
+        "animal": "https://unsplash.com/s/photos/animal/"
+      }
+    }
+  }
+}
