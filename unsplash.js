@@ -26,11 +26,19 @@ function getImages(url, page) {
       .concat(topic)
   );
 
-  var urls = json.results.map((image) => image.urls.small);
+  var urls = json.results.map((image) => image.urls.regular);
 
   return {
     images: urls,
     total: 5,
     next: url,
   };
+}
+
+function search(queryUrl, page) {
+  return getPosts(queryUrl, page);
+}
+
+function getSearchUrl(query) {
+  return baseUrl + "s/photos/" + query;
 }
