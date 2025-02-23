@@ -1,0 +1,18 @@
+{
+  "esversion": 6,        // Rhino supports ES5, but not ES6+ (unless using a newer version)
+  "moz": true,           // Enable Mozilla extensions if using a recent Rhino version
+  "rhino": true,         // Enable Rhino-specific globals
+  "undef": true,         // Warn about undefined variables
+  "unused": false,        // Warn about unused variables
+  "strict": false,       // Rhino doesn’t enforce strict mode by default
+  "globals": {
+    "importPackage": true,
+    "importClass": true,
+    "Packages": true,
+    "java": true,
+    "javax": true,
+    "fetch": true,
+    "baseUrl": true,
+    "console": true
+  }
+}
