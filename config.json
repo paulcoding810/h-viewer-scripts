@@ -7,6 +7,16 @@
       "tags": {
         "animal": "https://unsplash.com/s/photos/animal/"
       }
+    },
+    "pexels": {
+      "scriptFile": "pexels.js",
+      "baseUrl": "https://www.pexels.com/",
+      "tags": {
+        "cat": "https://www.pexels.com/search/cat/",
+        "dog": "https://www.pexels.com/search/dog/",
+        "nature": "https://www.pexels.com/search/nature/",
+        "tree": "https://www.pexels.com/search/tree/"
+      }
     }
   }
 }
