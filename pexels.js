@@ -41,12 +41,11 @@ function getImages(url, page) {
   const urls = json.data.map((item) => item.attributes.image.medium);
 
   const total = json.pagination.total_pages;
-  const next = page < total ? getApi(topic, page + 1) : null;
 
   return {
     images: urls,
     total: total,
-    next: next,
+    next: url,
   };
 }
 
