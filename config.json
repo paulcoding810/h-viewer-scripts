@@ -1,14 +1,14 @@
 {
-  "version": 2,
-  "sites": {
-    "unsplash": {
+  "version": 3,
+  "sites": [
+    {"name":"unsplash",
       "scriptFile": "unsplash.js",
       "baseUrl": "https://unsplash.com/",
       "tags": {
         "animal": "https://unsplash.com/s/photos/animal/"
       }
     },
-    "pexels": {
+    {"name":"pexels",
       "scriptFile": "pexels.js",
       "baseUrl": "https://www.pexels.com/",
       "tags": {
@@ -18,5 +18,5 @@
         "tree": "https://www.pexels.com/search/tree/"
       }
     }
-  }
+  ]
 }
